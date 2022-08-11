@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+header{
+    background-color: #111111;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header img{
+    width: 180px;
+}
+
+header ul{
+    display: flex;
+}
+
+header li + li{
+    margin-left: 24px;
+}
+
+header a{
+    color: #ebebeb;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+header a:hover{
+    color: #f13239;
+    
+}
