@@ -10,72 +10,93 @@
 </head>
 
 <body>
-    <header>
-        <img src="images/avengers-logo.png" alt="">
-        <nav>
-            <ul type="none">
-                <li><a href="#">Personagens</a></li>
-                <li><a href="#">Filmes</a></li>
-                <li><a href="#">Imagens</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="hero">
-        <h1>Projeto Vingadores</h1>
-        <div class="dots">
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-        </div>
-    </section>
-    <section class="gallery">
-        <h2>Galeria de imagens</h2>
-        <div class="gallery-row">
-            <div>
-                <img src="images/avengers-01.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-02.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-03.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-04.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-05.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-06.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-            <div>
-                <img src="images/avengers-07.jpg" alt="Vingadores">
-                <p>Legenda</p>
-            </div>
-        </div>
-    </section>
-    <section class="history">
+    <header id="dark" class="dark">
         <div class="container">
-            <div class="col">
-                <h2>História</h2>
-                <p>
-                    História
-                    Vingadores ou Os Vingadores (The Avengers no original em inglês) são um grupo de super-heróis de história em quadrinhos publicados nos Estados Unidos pela editora Marvel Comics. O grupo também aparece em adaptações da Marvel para cinema, desenho animado e jogos eletrônicos.
-                </p>
-                <p>Fonte: <a href="https://pt.wikipedia.org/wiki/Vingadores" target="_blank" rel="external">Wikipedia</a></p>
-            </div>
-            <div class="col"><img src="images/vingadores-01.png" alt="Foto dos vingadores"></div>
+            <img src="images/avengers-logo.png" alt="Logo Avengers Marvel">
+            <nav>
+                <ul type="none">
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#history">História</a></li>
+                </ul>
+            </nav>
         </div>
-    </section>
-    <footer>
-        <p>Desenvolvido com amor por <a href="https://ricardopitubasouza.github.io/projeto-android/" target="_blank" rel="external">Ricardo Pituba</a></p>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="text-center">Projeto Vingadores</h1>
+            <div class="dots">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galeria</h2>
+            <div class="container">
+                <div class="gallery-row">
+                    <figure>
+                        <img src="images/avengers-01.jpg" alt="Avengers 01">
+                        <figcaption>Avengers 01</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-02.jpg" alt="Avengers 02">
+                        <figcaption>Avengers 02</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-03.jpg" alt="Avengers 03">
+                        <figcaption>Avengers 03</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-04.jpg" alt="Avengers 04">
+                        <figcaption>Avengers 04</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-05.jpg" alt="Avengers 05">
+                        <figcaption>Avengers 05</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-06.jpg" alt="Avengers 06">
+                        <figcaption>Avengers 06</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-07.jpg" alt="Avengers 07">
+                        <figcaption>Avengers 07</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-08.jpg" alt="Avengers 08">
+                        <figcaption>Avengers 08</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-09.jpg" alt="Avengers 09">
+                        <figcaption>Avengers 09</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/avengers-10.jpg" alt="Avengers 10">
+                        <figcaption>Avengers 10</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="history" class="history dark">
+            <div class="container">
+                <div class="col">
+                    <h2>História</h2>
+                    <p>
+                        História
+                        Vingadores ou Os Vingadores (The Avengers no original em inglês) são um grupo de super-heróis de história em quadrinhos publicados nos Estados Unidos pela editora Marvel Comics. O grupo também aparece em adaptações da Marvel para cinema, desenho animado e jogos eletrônicos.
+                    </p>
+                    <p>Fonte: <a class="dark-link" href="https://pt.wikipedia.org/wiki/Vingadores" target="_blank" rel="external" title="Link externo">Wikipedia</a></p>
+                </div>
+                <div class="col"><img src="images/vingadores-01.png" alt="Imagem dos Vingadores com Homem de Ferro, Capitão América, Viúva Negra, Thor, Gavião Arqueiro e Hulk."></div>
+            </div>
+        </section>
+    </main>
+    <footer class="dark">
+        <div class="container">
+            <p class="text-center">Desenvolvido por <a class="dark-link" href="https://ricardopitubasouza.github.io/projeto-android/" target="_blank" rel="external" title="Link externo">Marcelo Pereira</a>
+            no Curso de Html5 e Css3 do canal <a class="dark-link" href="https://youtube.com/DicadoNerd" target="_blank" rel="external" title="Link externo">Dica do Nerd</a>.</p>
+        </div>
+        <p class="back-to-start"><a class="dark-link" href="#dark">voltar ao início</a></p>
     </footer>
 </body>
 
